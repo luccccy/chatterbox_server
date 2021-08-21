@@ -21,6 +21,7 @@
     "request": "^2.88.2"
   },
   "dependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "underscore": "^1.13.1"
   }
 }
