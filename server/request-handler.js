@@ -31,7 +31,7 @@ var requestHandler = function(request, response) {
 
     response.writeHead(201, headers);
     request.on('data', (chunk) => {
-
+      
       var chunkObj = JSON.parse(chunk);
       var messageObj = {};
 
